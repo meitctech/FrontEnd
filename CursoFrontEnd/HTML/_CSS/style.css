@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#cabecalho{
+  background-color: rgb(10, 186, 240);
+}
+
+#menu{
+  width: 100%;
+  background-color: lightsalmon;
+}
+
+#divisao1{
+  border: 1px solid black;
+}
+
+a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#divisao2{
+  border: 1px solid black;
+}
