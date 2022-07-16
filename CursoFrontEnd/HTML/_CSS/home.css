@@ -1,0 +1,23 @@
+body{
+  background-color: aqua;
+}
+
+
+#conteudo{
+  background-color: antiquewhite;
+  display: block;
+  float: left;
+  width: 300px;
+  margin-left: 10px;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 1px 1px 2px black;
+}
+
+img{
+  width: 700px;
+  height: 300px;
+  display: block;
+  float: right;
+}
