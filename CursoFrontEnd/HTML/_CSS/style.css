@@ -7,11 +7,12 @@
 
 #cabecalho{
   background-color: rgb(10, 186, 240);
+  text-align: center;
 }
 
 #menu{
   width: 100%;
-  background-color: lightsalmon;
+  background-color: aqua;
 }
 
 #divisao1{
@@ -20,8 +21,11 @@
 
 a{
   text-decoration: none;
-  font-size: 15px;
+  font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  padding-right: 5px;
 }
 
 #divisao2{
