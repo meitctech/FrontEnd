@@ -1,31 +1,52 @@
 body{
   background-color: rgb(66, 124, 124);
 }
+h1{
+  font-size: 12px;
+}
+h2{
+  background-color: gray;
+  text-align: center;
+}
 p{
-  text-indent: 20px;
-  font-size: 20px;
+  font-size: 12px;
+  text-indent: 12px;
 }
 
-#conteudo{
+#subdiv1{
   background-color: antiquewhite;
-  box-sizing: border-box;
-  display: block;
+  box-sizing: content-box;
   float: left;
   width: 630px;
-  margin-left: 0px;
-  margin-right: -5px;
+  height: 420px;
   border: 1px solid black;
   padding-left: 20px;
   padding-right: 20px;
   box-shadow: 1px 1px 2px black;
 }
+#divcont1{
+  display: block;
+  float: left;
+  margin-top: 10px;
+  margin-right: -4px;
+  width: 300px;
+}
+
+#divcont2{
+  display: block;
+  float: right;
+  margin-top: 10px;
+  margin-right: -4px;
+  width: 300px;
+}
+
 #conteudo>h2{
 text-align: center;
 background-color: grey;
 }
 
 #conteudo2{
-  width: 600px;
+  width: 550px;
   height: 300px;
   display: block;
   float: right;
@@ -33,7 +54,7 @@ background-color: grey;
 }
 
 img{
-  width: 600px;
+  width: 550px;
   height: 300px;
 }
 #tabela{
