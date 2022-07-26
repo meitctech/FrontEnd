@@ -1,0 +1,12 @@
+body{
+  background-image: url("../_imagens/cachoeira.jpg");
+  width: 95%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1280px 600px;
+}
+
+header h2{
+  
+}

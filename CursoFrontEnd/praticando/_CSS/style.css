@@ -11,26 +11,36 @@
 }
 
 #menu{
+  display: inline-block;
   width: 100%;
+  height: 26px;
   background-color: aqua;
-  margin-left: -0px;
+  margin: 0 auto;
+  border:1px solid black;
+  position: fixed;
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 23px;
   font-family: 'Times New Roman', Times, serif;
   color: black;
   text-shadow: 1px 1px 1px black;
-  margin-right: -4px;
-  padding-right: 91.5px;
-  padding-left: 91.3px;
+  margin-top: -1px;
+  margin-left: -5px;
+  margin-bottom: -1px;
+  padding-right: 95px;
+  padding-left: 95px;
   border: 1px solid black;
 }
-
+a:hover{
+  background-color: blue:
+}
 iframe{
+  margin-top: 27px;
   width: 100%;
- height: 570px;
+  height: 570px;
 }
 
 #divisao1{

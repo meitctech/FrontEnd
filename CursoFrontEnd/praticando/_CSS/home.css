@@ -9,11 +9,11 @@ h2{
   text-align: center;
 }
 p{
-  font-size: 12px;
   text-indent: 12px;
+  text-align: justify;
 }
 
-#subdiv1{
+#conteudo{
   background-color: antiquewhite;
   box-sizing: content-box;
   float: left;
@@ -23,6 +23,7 @@ p{
   padding-left: 20px;
   padding-right: 20px;
   box-shadow: 1px 1px 2px black;
+  overflow: auto;
 }
 #divcont1{
   display: block;
@@ -30,6 +31,7 @@ p{
   margin-top: 10px;
   margin-right: -4px;
   width: 300px;
+  height: 420px;
 }
 
 #divcont2{
@@ -38,6 +40,7 @@ p{
   margin-top: 10px;
   margin-right: -4px;
   width: 300px;
+  height: 420px;
 }
 
 #conteudo>h2{
