@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,body{
+  overflow: hidden;
+}
+
+/*Trabalahndo o cabeçário*/
+
+header{
+  padding: 20px 0;
+}
+
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.logo{
+  width: 66.3%;
+}
+.logo img{
+  width: 8%;
+}
+.menu{
+  padding-top: 50px;
+  margin-left: 2%;
+}
+.menu a{
+  margin-left: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+/*Corpo do documento*/
+
+.verde{
+  display: block;
+  max-width: 500px;
+  height: 480px;
+  background-color: rgb(44, 104, 44);
+  border-radius: 100% 0% 0% 0%;
+  float:right;
+  margin-top: 4%;
+}
+.im1{
+  width:70%;
+  margin-left: 4%;
+}
+
+.icones{
+  display: block;
+  float: right;
+  width: 30px;
+  height: 400px;
+  margin-top: 40%;
+  margin-right: 2%;
+  text-align: center;
+}
+.icones a img{
+  margin-bottom: 10px;
+  width: 50%
+}
+.face{
+  width: 10%;
+}
+
+/*Área do artigo*/
+
+.artigo{
+  display: block;
+  margin-left: 4%;
+}
+
+.titulo h1{
+  font-size: 40px;
+}
+.titulo h1 spaw{
+  color: rgb(44, 104, 44);
+  font-size: 44px;
+  text-shadow: 1px 1px 2px black;
+}
+
+article p{
+  text-indent: 12px;
+  text-align: justify;
+  width: 500px;
+}
+button{
+  margin-top: 10px;
+  border:none;
+  width: 180px;
+  height: 35px;
+  background-color: rgb(44, 104, 44);
+  font-size: 16px;
+  border-radius: 18px;
+  text-shadow: 1px 1px 1px black;
+  color:white;
+  cursor: pointer;
+}
+
+.rodape{
+  display: block;
+  position: absolute;
+  margin-top: 9.5%;
+  margin-left: 0%;
+  text-align: center;
+}
+.rodape img{
+  width: 5%;
+  margin-left: 2%;
+}

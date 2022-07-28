@@ -10,58 +10,78 @@
 <body>
   
   <form action="">
+    
     <fieldset>
+    
       <legend>Novo formulário</legend>
+
+      <!--Daodos Pessoais-->
       <header>
         <h2>Dados pessoais</h2>
       </header>
+    
       Nome:<input type="text" name="nome" placeholder="Digite seu nome" id="nome">
       E-mail:<input type="email" name="email" placeholder="Digite seu email" id="email">
       Idade:<input type="number" name="idade" id="idade">
       Telefone:<input type="tel" name="telefone" id="telefone">
       Data de nascimento: <input type="date" name="data" id="data">
+    
       <select name="lista" id="lista">
-        <option value="" disabled selected>Região</option>
-        <option value="">SP</option>
-        <option value="">PR</option>
-        <option value="">PE</option>
-        <option value="">SE</option>
+        <option value="message" disabled selected>Região</option>
+        <option value="sp">SP</option>
+        <option value="pr">PR</option>
+        <option value="pe">PE</option>
+        <option value="se">SE</option>
       </select>
+    
       <p>
         <input type="radio" name="seletor" value="Masculino" id="m">Masculino
         <input type="radio" name="seletor" value="Feminino" id="f">Feminino
       </p>
+    
+      <!--Opiniões-->
       <header>
         <h2>Selecione as opções que você considera importante para ser um porfissional</h2>
       </header>
+    
       <p>
         <table>
           
           <tr>
-            <td><input type="checkbox" name="seletor1" id="">Aprender</td>
-            <td><input type="checkbox" name="seletor1" id="">Pesquisar</td>
+            <td><input type="checkbox" name="seletor1[]" value="aprender" id="">Aprender</td>
+            <td><input type="checkbox" name="seletor1[]" value="pesquisar" id="">Pesquisar</td>
           </tr>
           
           <tr>
-            <td><input type="checkbox" name="seletor1" id="">Praticar</td>
-            <td><input type="checkbox" name=" seletor1"id="">Compartilhar <br></td>
+            <td><input type="checkbox" name="seletor1[]" value="praticar" id="">Praticar</td>
+            <td><input type="checkbox" name=" seletor1[]" value="compartilhar" id="">Compartilhar <br></td>
           </tr>
         
           <tr>
-            <td><input type="checkbox" name="" id="">Desenvolver</td>
-            <td><input type="checkbox" name="seletor1" id="">Criatividade</td>
+            <td><input type="checkbox" name="selector1[]" value="desenvolver" id="">Desenvolver</td>
+            <td><input type="checkbox" name="seletor1[]" value="criatividade" id="">Criatividade</td>
           </tr>
         
         </table>
+    
       </p>
+    
       <header>
         <h2>Descreve aqui sua opinião referenta ao aprendizado</h2>
       </header>
+    
       <textarea name="texto" id="" cols="106" rows="10"></textarea>
+    
+      <label for="seletor2">selecione o arquivo:</label>
+      <input type="file" name="arquivo" value="file" id="seletor2">
+    
       <div>
-        <input type="submit" value="Enviar"/>
+        <input type="submit" name="acao" value="Enviar"/>
       </div>
+    
     </fieldset>
+  
   </form>
+
 </body>
 </html>

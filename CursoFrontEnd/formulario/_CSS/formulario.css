@@ -1,3 +1,5 @@
+/*Atacando propriedades do formulário no geral*/
+
 form{
   width: 96%;
   max-width: 900px;
@@ -30,6 +32,9 @@ form input:focus,textarea:focus{
   outline: 0;
   background-color: rgb(164, 194, 250);
 }
+
+/*Atacando propriedades especificas*/
+
 form input[type=text],input[type=email]{
   width: 375px;
 }
@@ -66,4 +71,18 @@ form input[type=submit]:hover{
 }
 textarea{
   resize: none;
+}
+
+input[type=file]{
+  display: none;
+}
+
+label{
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: mediumpurple;
+  cursor: pointer;
 }
