@@ -1,0 +1,47 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+}
+header{
+  display: inline-block;
+  background-color: aquamarine;
+  width: 80%;
+  text-align: center;
+  margin: 2% 10%;
+  box-shadow: 3px 3px 1px black;
+}
+
+.galeria{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 920px;
+  padding: 0.5% 0.5%;
+  border: 2px solid lightgray;
+  box-shadow: 4px 4px 5px black;
+}
+.galeria .whapper{
+  width: 33.3%;
+  float: left;
+  background-color: blueviolet;
+  padding-top: 22%;
+  position: relative;
+  border: 3px solid white;
+}
+.clear{
+  clear: both;
+}
+.img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background:url("../_images/natureza.jpg") no-repeat;
+  background-size: 100% 100%;
+}
