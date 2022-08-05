@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  height: 100%;
+}
+/*
+ul{
+  list-style-position: inside;
+}
+ataca a onrdem de acordo com o tipo 
+ul li:nth-of-type(2){
+  color: blueviolet;
+}
+
+ataca a ordem de acordo com a tag filho 
+ul li:nth-child(3){
+  color: brown;
+}
+*/
+.caixa{
+  width: 100%;
+}
+
+.item{
+  box-sizing: border-box;
+  float: left;
+  display: inline-block;
+  width: 430px;
+  height: 400px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  margin-right: -10px;
+}
+.caixa div:last-of-type,.caixa p:last-of-type{
+  background-color: blue;
+  color: white;
+}
+
+.box div{
+  box-sizing: border-box;
+  float: left;
+  display: inline-block;
+  width: 428px;
+  height: 400px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  margin-right: -10px;
+}
+.box div:last-of-type p{
+  color:palegoldenrod;
+  text-shadow: 1px 1px 1px black;
+}
+
+.box div:not(.one){
+  background-color: green;
+}
