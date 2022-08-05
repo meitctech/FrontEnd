@@ -1,0 +1,205 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+/*Cabeçãho*/
+
+.cabecalho{
+  display: inline-block;
+  background:#212343  url("../_images/logo.png") no-repeat 1%;
+  background-size: 150px;
+  width: 100%;
+  height: 50px;
+}
+
+/*Informativo*/
+
+.bloco1{
+  background:lightgrey url("../_images/header_bg.png") no-repeat;
+  background-size: 100%;
+  height: 440px;
+  margin-top: -4px;
+  position: static;
+}
+
+.lista{
+  display: inline-block;
+  float: left;
+  max-width: 500px;
+  height: 55%;
+  margin-top: 3%;
+  margin-left: 5%;
+  padding-bottom: 3%;
+  color: aliceblue;
+  background-color: rgba(33,35,67,0.7);
+}
+.lista ul{
+  list-style-position: inside;
+  padding: 7%;
+}
+.lista ul li{
+  padding-bottom: 5%;
+  font-size: 13px;
+}
+
+/*Formulário*/
+
+.formulario{
+  display: inline-block;
+  position: relative;
+  float: right;
+  max-width: 340px;
+  background-color: white;
+  border: 10px solid rgba(173, 169, 169,0.3);
+  background-clip: padding-box;
+  color: rgb(173, 169, 169);
+  margin-top: -25px;
+  margin-right: 5%;
+  padding-bottom: 1%;
+}
+.formulario h2{
+  font-size: 19px;
+}
+.formulario form{
+  padding: 5%;
+}
+#nome1,#email1,#telefone1{
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(173, 169, 169);
+}
+
+form p{
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+button{
+  background-color: #212343;
+  width: 80%;
+  margin-top: 6%;
+  margin-left: 10%;
+  font-size: 22px;
+  padding: 5%;
+  color: aliceblue;
+  border: 0;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #2a2d55;
+}
+
+/*Descrição*/
+
+.bloco2{
+  background-color: lightgrey;
+}
+
+.description{
+  display: inline-block;
+  margin:2% 20% 0% 20%;
+  max-width: 800px;
+  text-align:justify;
+  text-indent: 12px;
+}
+
+.description h2{
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.description p{
+  padding-bottom: 2%;
+  font-size: 15px;
+}
+
+.seta{
+  background: url("../_images/arrow.png");
+  background-size: 100%;
+  width: 44px;
+  height: 44px;
+  position: relative;
+  margin: 0 48% -22px 48%;
+}
+
+/*Parceiros*/
+
+.parceiros header{
+  padding: 7% 0%;
+  text-align: center;
+}
+
+.area-Parceiros{
+  margin: 0% 5%;
+  text-align: center;
+}
+.area-Parceiros p{
+  text-indent: 14px;
+  text-align: justify;
+}
+.area-Parceiros h2{
+  margin: 10% 0;
+}
+.parceiro1,.parceiro2,.parceiro3{
+  display: inline-block;
+width: 20%;
+height: 100px;
+margin: 0% 5%;
+}
+
+.area-Parceiros .icone{
+  background: url("../_images/icon.png") no-repeat 50%;
+  background-size: 40%;
+  width: 100%;
+  height: 100px;
+}
+
+
+/*Rodapé*/
+
+footer{
+  border-top: 2px solid gray;
+  text-align: center;
+  padding: 1.7%;
+  margin:4% 0% 0% 0%; 
+}
+img{ 
+  margin-top: 0;
+  padding: 0%;
+  float: left;
+  
+}
+.imagem{
+  background-color: #050944;
+}
+@media screen and (max-width: 980px){
+
+  .lista{
+    max-width: 500px;
+    height: 55%;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 3% 15%;
+    color: aliceblue;
+    background-color: rgba(33,35,67,0.7);
+  }
+
+  .formulario{
+    width: 340px;
+    background-color: white;
+    border: 10px solid rgba(173, 169, 169,0.3);
+    background-clip: padding-box;
+    color: rgb(173, 169, 169);
+    margin-right: calc(46% - 170px);
+    padding-bottom: 1%;
+  }
+
+  .parceiro1,.parceiro2,.parceiro3{
+    display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 0% 13.9%;
+  }
+
+}
