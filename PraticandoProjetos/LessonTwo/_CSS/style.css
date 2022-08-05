@@ -8,7 +8,7 @@
 .cabecalho{
   display: inline-block;
   background:#212343  url("../_images/logo.png") no-repeat 1%;
-  background-size: 10%;
+  background-size: 150px;
   width: 100%;
   height: 50px;
 }
@@ -22,14 +22,11 @@
   margin-top: -4px;
   position: static;
 }
-.lista{
-  display: inline-block;
 
-}
 .lista{
   display: inline-block;
   float: left;
-  max-width: 600px;
+  max-width: 500px;
   height: 55%;
   margin-top: 3%;
   margin-left: 5%;
@@ -101,7 +98,7 @@ button:hover{
 
 .description{
   display: inline-block;
-  margin:-2% 20% 0% 20%;
+  margin:2% 20% 0% 20%;
   max-width: 800px;
   text-align:justify;
   text-indent: 12px;
@@ -128,17 +125,13 @@ button:hover{
 
 /*Parceiros*/
 
-.parceiros{
-  display: inline-block;
-}
-
 .parceiros header{
   padding: 7% 0%;
   text-align: center;
 }
 
 .area-Parceiros{
-  margin: 0%;
+  margin: 0% 5%;
   text-align: center;
 }
 .area-Parceiros p{
@@ -179,4 +172,34 @@ img{
 }
 .imagem{
   background-color: #050944;
+}
+@media screen and (max-width: 980px){
+
+  .lista{
+    max-width: 500px;
+    height: 55%;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 3% 15%;
+    color: aliceblue;
+    background-color: rgba(33,35,67,0.7);
+  }
+
+  .formulario{
+    width: 340px;
+    background-color: white;
+    border: 10px solid rgba(173, 169, 169,0.3);
+    background-clip: padding-box;
+    color: rgb(173, 169, 169);
+    margin-right: calc(46% - 170px);
+    padding-bottom: 1%;
+  }
+
+  .parceiro1,.parceiro2,.parceiro3{
+    display: inline-block;
+  width: 200px;
+  height: 100px;
+  margin: 0% 13.9%;
+  }
+
 }
