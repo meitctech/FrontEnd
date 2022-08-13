@@ -1,4 +1,6 @@
 {
   "editor.fontSize": 11,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "indentRainbow.indicatorStyle": "classic"
 }

@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Tittle*/
+
+header{
+  width: 100%;
+  max-width: 900px;
+  height: 50px;
+  text-align: center;
+  background-color: lightblue;
+  margin: 0 auto;
+}
+
+/*divisions*/
+
+.division1 h2{
+  color: goldenrod;
+  font-size: 24px;
+}
+
+.division1 p{
+  color: brown;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.division2 h2{
+  color: darkorange;
+  font-size: 24px;
+}
+
+.division2 p{
+  color: blue;
+  font-size: 13px;
+  font-style: italic;
+}

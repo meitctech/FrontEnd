@@ -31,8 +31,7 @@ html,body{
 /*Conteúdo do documento*/
 
 .blocodocumento{
-  display: inline-block;;
-  background-color: blue;
+  display: inline-block;
   margin: 1% 2%;
   width: 96%;
 }
