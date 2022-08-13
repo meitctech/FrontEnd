@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Artigos*/
+
+.divisionone{
+  width: 100%;
+  padding: 2%;
+  background-color: aquamarine;
+  color: darkgoldenrod;
+  font-size: 12px;
+}
+
+.divisiontwo{
+  width: 100%;
+  padding: 2%;
+  background-color: blue;
+  color: chartreuse;
+  font-size: 12px;
+}
+
+.divisiontree{
+  width: 100%;
+  padding: 2%;
+  background-color: cadetblue;
+  color: blue;
+  font-size: 12px;
+}
+
+/*A propriedade "word-wrap" de quebra de palavras permite que palavras longas possam ser quebradas e passar para a próxima linha*/
+
+p{
+  word-wrap: break-word;
+  display: inline;
+  border-bottom: 2px solid black;
+}
+
+/*Obs: Word-break - A propriedade de quebra de palavra especifica regras de quebra de linha para chinês, japonês e coreano*/
+
+/*
+"white-space:normal;" Irá quebrar o teto no momento certo
+"white-space:nowrap; manterá o texto sempre na mesma linha(ou seja, sem quebrar)"
+"hite-space:pre;" interpreta no navegador da mesma forma que está redigido no documento html
+"hite-space:pre-line;" Interpreta apenas as quebras de linha 
+*/
