@@ -19,6 +19,7 @@ p{
   height: 45px;
   text-align: center;
   color: cadetblue;
+  background: linear-gradient(180deg,black,rgb(0, 0, 45),rgb(0, 0, 75),darkblue,rgb(0, 0, 212),blue,rgb(79, 79, 247));
 }
 
 /*#####Principal#####*/
