@@ -1,0 +1,43 @@
+/*#####Reset#####*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*######Ajuste parágrafo#####*/
+p{
+  text-align: justify;
+  text-indent: 13px;
+}
+
+/*#####-Cabeçalho#####*/
+
+.main-header{
+  display: block;
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  color: cadetblue;
+}
+
+/*#####Principal#####*/
+
+.main{
+  display: flex;
+  align-items: center;/*Deixa os objetos alinhados ao centro automaticamente*/
+  /*flex-direction: row-reverse; -Reverte a ordem-*/
+  /*flex-direction: column; -Ordena como coluna-*/
+  /*flex-direction: column-reverse; -Ordena como coluna reversa-*/
+}
+
+.aside{
+  /*order: 2; -Define a ordem manualmente dos objetos-*/
+  padding: 2%;
+  background: lightgrey ;
+}
+#main-article{
+  /*order: 1; -Define a ordem manualmente dos objetos-*/
+  padding: 2%;
+  background: grey;
+}
