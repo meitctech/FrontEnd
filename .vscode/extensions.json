@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "mf.vscode-styled-components"
+    "mf.vscode-styled-components",
+    "streetsidesoftware.code-spell-checker"
   ]
 }

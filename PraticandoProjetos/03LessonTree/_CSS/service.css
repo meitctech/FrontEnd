@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "space-age";
+  src: url("../_fonts/space-age.ttf") format("truetype");
+}
+@font-face {
+  font-family: "future-z";
+  src: url("../_fonts/Future\ Z.ttf") format("truetype"), url("../_fonts/Future\ Z\ Italic.ttf") format("truetype"), url("../_fonts/Future\ Z.otf") format("opentype"), url("../_fonts/Future\ Z\ Italic.otf") format("opnetype");
+  font-weight: normal;
+}
+
+html,body{
+  width: 100%;
+}
+
+::-webkit-scrollbar-thumb{
+  width: 1px;
+}
+
+ul li{
+  list-style: url("../_images/arrow-right.png") inside ;
+  font-size: 40px;
+  font-family: "space-age";
+  padding: 1%;
+  color: rgb(6, 245, 213);
+  background-color: rgb(0,20,37);
+}
+ul li p{
+  font-family: "future-z";
+  font-size: 16px;
+  text-indent: 14px;
+  text-align: justify;
+  color: rgb(206, 194, 194);
+  background-color: darkblue;
+}

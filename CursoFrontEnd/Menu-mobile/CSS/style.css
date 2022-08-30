@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*<=======Navigation-bar==========>*/
+
+#menu{
+  margin-top: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url("../image/icons8-cardápio-50.png");
+  background-size: 100% 100%;
+}
+#menu-list{
+  width: 40px;
+  height: 40px;
+}
+
+#menu-list:hover ul{
+  margin-left: 0;
+  
+}
+
+#menu-list ul{
+  background-color: aqua;
+  padding-top: 40px;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+}
+
+
+#menu-list ul li a{
+  text-decoration: none;
+}
+
+
+/* <======Maps=======> */
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;width:600px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:600px;
+}

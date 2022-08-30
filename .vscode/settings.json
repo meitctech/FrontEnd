@@ -5,5 +5,13 @@
   "indentRainbow.indicatorStyle": "classic",
   "cSpell.noSuggestDictionaries": [
     "pt-br"
-  ]
+  ],
+  "editor.linkedEditing": true,
+  "cSpell.dictionaries": [
+    "pt-br"
+  ],
+  "cSpell.userWords": [
+    "pt-br"
+  ],
+  "cSpell.language": "pt-BR,en"
 }
